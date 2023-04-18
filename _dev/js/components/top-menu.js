@@ -39,8 +39,8 @@ export default class TopMenu extends DropDown {
       if (elmtClass !== currentTargetClass) {
         // eslint-disable-next-line
         const classesSelected = Array.prototype.slice
-          .call(e.currentTarget.classList)
-          .map((elem) => (typeof elem === 'string' ? `.${elem}` : false));
+            .call(e.currentTarget.classList)
+            .map((elem) => (typeof elem === 'string' ? `.${elem}` : false));
 
         elmtClass = classesSelected.join('');
 
@@ -72,10 +72,10 @@ export default class TopMenu extends DropDown {
 
   toggleMobileMenu() {
     $('#header').toggleClass('is-open');
-    if ($('#mobile_top_menu_wrapper').is(':visible')) {
+    /*if ($('#mobile_top_menu_wrapper').is(':visible')) {
       $('#notifications, #wrapper, #footer').hide();
     } else {
       $('#notifications, #wrapper, #footer').show();
-    }
+    }*/
   }
 }
