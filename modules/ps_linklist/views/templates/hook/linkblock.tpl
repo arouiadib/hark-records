@@ -23,25 +23,25 @@
  * @license   https://opensource.org/licenses/AFL-3.0 Academic Free License 3.0 (AFL-3.0)
  *}
 <div class="links">
-  <div class="row">
-    {foreach $linkBlocks as $linkBlock}
-      <div class="col-md-6 wrapper">
-        <ul id="footer_sub_menu_{$linkBlock.id}">
-          {foreach $linkBlock.links as $link}
-            <li>
-              <a
-                      id="{$link.id}-{$linkBlock.id}"
-                      class="{$link.class}"
-                      href="{$link.url}"
-                      title="{$link.description}"
-                      {if !empty($link.target)} target="{$link.target}" {/if}
-              >
-                {$link.title}
-              </a>
-            </li>
-          {/foreach}
-        </ul>
-      </div>
-    {/foreach}
-  </div>
+    <div class="">
+        {foreach $linkBlocks as $linkBlock}
+            <div class="col-md-6 p-0 wrapper">
+                <ul id="footer_sub_menu_{$linkBlock.id}">
+                    {foreach $linkBlock.links as $link}
+                        <li>
+                            <a
+                                    id="{$link.id}-{$linkBlock.id}"
+                                    class="{$link.class}"
+                                    href="{$link.url}"
+                                    title="{$link.description}"
+                                    {if !empty($link.target)} target="{$link.target}" {/if}
+                            >
+                                {$link.title}
+                            </a>
+                        </li>
+                    {/foreach}
+                </ul>
+            </div>
+        {/foreach}
+    </div>
 </div>
