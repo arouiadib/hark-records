@@ -56,10 +56,12 @@
                 <div class="wrapper">
                     <div class="side intro-left">
                         <div class="intro-title">
-                            {l s='HARK Repair est spécialiste en restauration de matériel HiFi vintage à Paris' d='Modules.Hsnewestproducts.Shop'}
+                            {l s='HARK Records vend des vinyles neufs et d\'occasion' d='Modules.Hsnewestproducts.Shop'}
                         </div>
                         <div class="intro-description">
-                            {l s='Un atelier dédié à la réparation de matériel audio : platines CD, platines vinyles, magnétophone à cassettes, tuners DAC, magnétophone à bande, amplificateur, enceintes et haut parleurs.' d='Modules.Hsnewestproducts.Shop'}
+                            {l s='Mardi - Dimanche - 11h - 19h' d='Modules.Hsnewestproducts.Shop'}
+                            <br>
+                            {l s='76 Rue Léon Front, Paris 11e' d='Modules.Hsnewestproducts.Shop'}
                         </div>
                     </div>
                     <div class="side intro-right">
@@ -71,9 +73,7 @@
             </div>
       </section>
 
-      <section id="events-records">
-        
-      </section>
+      <section id="events-records"></section>
 
       <section id="outro-records">
             {widget name="ps_imageslider" hook="displayHome"}
