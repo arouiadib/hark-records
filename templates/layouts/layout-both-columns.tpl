@@ -51,6 +51,23 @@
         {/block}
       </header>
 
+      <section id="intro-records">
+            <div class="">
+                <div class="wrapper">
+                    <div class="side intro-left">
+                        <div class="intro-title">
+                            {l s='HARK Repair est spécialiste en restauration de matériel HiFi vintage à Paris' d='Modules.Hsnewestproducts.Shop'}
+                        </div>
+                    </div>
+                    <div class="side intro-right">
+                        <figure>
+                            <img src="{$urls.img_url}homepage/3.jpg" alt="">
+                        </figure>
+                    </div>
+                </div>
+            </div>
+      </section>
+
       <section id="wrapper">
         {block name='notifications'}
           {include file='_partials/notifications.tpl'}
@@ -93,6 +110,10 @@
           {/block}
         </div>
         {hook h="displayWrapperBottom"}
+      </section>
+
+      <section id="outro-repair">
+            {widget name="ps_imageslider" hook="displayHome"}
       </section>
 
       <footer id="footer" class="js-footer">
