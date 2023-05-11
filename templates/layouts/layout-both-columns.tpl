@@ -68,6 +68,10 @@
             </div>
       </section>
 
+      <section id="events-records">
+        
+      </section>
+
       <section id="outro-records">
             {widget name="ps_imageslider" hook="displayHome"}
       </section>
