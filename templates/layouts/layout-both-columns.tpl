@@ -68,51 +68,7 @@
             </div>
       </section>
 
-      <section id="wrapper">
-        {block name='notifications'}
-          {include file='_partials/notifications.tpl'}
-        {/block}
-
-        {hook h="displayWrapperTop"}
-        <div class="container">
-          {block name='breadcrumb'}
-            {include file='_partials/breadcrumb.tpl'}
-          {/block}
-
-          {block name="left_column"}
-            <div id="left-column" class="col-xs-12 col-sm-4 col-md-3">
-              {if $page.page_name == 'product'}
-                {hook h='displayLeftColumnProduct'}
-              {else}
-                {hook h="displayLeftColumn"}
-              {/if}
-            </div>
-          {/block}
-
-          {block name="content_wrapper"}
-            <div id="content-wrapper" class="js-content-wrapper left-column right-column col-sm-4 col-md-6">
-              {hook h="displayContentWrapperTop"}
-              {block name="content"}
-                <p>Hello world! This is HTML5 Boilerplate.</p>
-              {/block}
-              {hook h="displayContentWrapperBottom"}
-            </div>
-          {/block}
-
-          {block name="right_column"}
-            <div id="right-column" class="col-xs-12 col-sm-4 col-md-3">
-              {if $page.page_name == 'product'}
-                {hook h='displayRightColumnProduct'}
-              {else}
-                {hook h="displayRightColumn"}
-              {/if}
-            </div>
-          {/block}
-        </div>
-        {hook h="displayWrapperBottom"}
-      </section>
-
-      <section id="outro-repair">
+      <section id="outro-records">
             {widget name="ps_imageslider" hook="displayHome"}
       </section>
 
