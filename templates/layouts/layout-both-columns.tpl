@@ -58,6 +58,9 @@
                         <div class="intro-title">
                             {l s='HARK Repair est spécialiste en restauration de matériel HiFi vintage à Paris' d='Modules.Hsnewestproducts.Shop'}
                         </div>
+                        <div class="intro-description">
+                            {l s='Un atelier dédié à la réparation de matériel audio : platines CD, platines vinyles, magnétophone à cassettes, tuners DAC, magnétophone à bande, amplificateur, enceintes et haut parleurs.' d='Modules.Hsnewestproducts.Shop'}
+                        </div>
                     </div>
                     <div class="side intro-right">
                         <figure>
