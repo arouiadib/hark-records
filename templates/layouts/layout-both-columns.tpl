@@ -51,48 +51,32 @@
         {/block}
       </header>
 
-      <section id="wrapper">
-        {block name='notifications'}
-          {include file='_partials/notifications.tpl'}
-        {/block}
-
-        {hook h="displayWrapperTop"}
-        <div class="container">
-          {block name='breadcrumb'}
-            {include file='_partials/breadcrumb.tpl'}
-          {/block}
-
-          {block name="left_column"}
-            <div id="left-column" class="col-xs-12 col-sm-4 col-md-3">
-              {if $page.page_name == 'product'}
-                {hook h='displayLeftColumnProduct'}
-              {else}
-                {hook h="displayLeftColumn"}
-              {/if}
+      <section id="intro-records">
+            <div class="">
+                <div class="wrapper">
+                    <div class="side intro-left">
+                        <div class="intro-title">
+                            {l s='HARK Records vend des vinyles neufs et d\'occasion' d='Modules.Hsnewestproducts.Shop'}
+                        </div>
+                        <div class="intro-description">
+                            {l s='Mardi - Dimanche - 11h - 19h' d='Modules.Hsnewestproducts.Shop'}
+                            <br>
+                            {l s='76 Rue Léon Front, Paris 11e' d='Modules.Hsnewestproducts.Shop'}
+                        </div>
+                    </div>
+                    <div class="side intro-right">
+                        <figure>
+                            <img src="{$urls.img_url}homepage/3.jpg" alt="">
+                        </figure>
+                    </div>
+                </div>
             </div>
-          {/block}
+      </section>
 
-          {block name="content_wrapper"}
-            <div id="content-wrapper" class="js-content-wrapper left-column right-column col-sm-4 col-md-6">
-              {hook h="displayContentWrapperTop"}
-              {block name="content"}
-                <p>Hello world! This is HTML5 Boilerplate.</p>
-              {/block}
-              {hook h="displayContentWrapperBottom"}
-            </div>
-          {/block}
+      <section id="events-records"></section>
 
-          {block name="right_column"}
-            <div id="right-column" class="col-xs-12 col-sm-4 col-md-3">
-              {if $page.page_name == 'product'}
-                {hook h='displayRightColumnProduct'}
-              {else}
-                {hook h="displayRightColumn"}
-              {/if}
-            </div>
-          {/block}
-        </div>
-        {hook h="displayWrapperBottom"}
+      <section id="outro-records">
+            {widget name="ps_imageslider" hook="displayHome"}
       </section>
 
       <footer id="footer" class="js-footer">
