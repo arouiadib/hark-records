@@ -64,7 +64,7 @@
                                 {l s='HARK Records vend des vinyles neufs et d\'occasion' d='Modules.Hsnewestproducts.Shop'}
                             </div>
                             <div class="intro-description">
-                                {l s='Mardi - Dimanche - 11h - 19h' d='Modules.Hsnewestproducts.Shop'}
+                                {l s='Ouverture le 13 juin' d='Modules.Hsnewestproducts.Shop'}
                                 <br>
                                 {l s='76 Rue Léon Front, Paris 11e' d='Modules.Hsnewestproducts.Shop'}
                             </div>
