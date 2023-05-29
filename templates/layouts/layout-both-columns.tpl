@@ -32,10 +32,14 @@
     {block name='head'}
       {include file='_partials/head.tpl'}
     {/block}
+
+    {include file='_partials/facebook-pixel.tpl'}
+    {include file='_partials/google-tag-manager-head.tpl'}
   </head>
 
   <body id="{$page.page_name}" class="{$page.body_classes|classnames}">
 
+    {include file='_partials/google-tag-manager-body.tpl'}
     {block name='hook_after_body_opening_tag'}
       {hook h='displayAfterBodyOpeningTag'}
     {/block}
@@ -55,13 +59,15 @@
             <div class="">
                 <div class="wrapper">
                     <div class="side intro-left">
-                        <div class="intro-title">
-                            {l s='HARK Records vend des vinyles neufs et d\'occasion' d='Modules.Hsnewestproducts.Shop'}
-                        </div>
-                        <div class="intro-description">
-                            {l s='Mardi - Dimanche - 11h - 19h' d='Modules.Hsnewestproducts.Shop'}
-                            <br>
-                            {l s='76 Rue Léon Front, Paris 11e' d='Modules.Hsnewestproducts.Shop'}
+                        <div class="intro-title-desc">
+                            <div class="intro-title">
+                                {l s='HARK Records vend des vinyles neufs et d\'occasion' d='Modules.Hsnewestproducts.Shop'}
+                            </div>
+                            <div class="intro-description">
+                                {l s='Ouverture le 13 juin' d='Modules.Hsnewestproducts.Shop'}
+                                <br>
+                                {l s='76 Rue Léon Front, Paris 11e' d='Modules.Hsnewestproducts.Shop'}
+                            </div>
                         </div>
                     </div>
                     <div class="side intro-right">
