@@ -79,7 +79,9 @@
             </div>
       </section>
 
-      <section id="events-records"></section>
+      <section id="events-records">
+          {widget name="hrec_events"}
+      </section>
 
       <section id="outro-records">
             {widget name="ps_imageslider" hook="displayHome"}
