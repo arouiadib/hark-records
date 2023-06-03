@@ -72,7 +72,7 @@
                     </div>
                     <div class="side intro-right">
                         <figure>
-                            <img src="{$urls.img_url}homepage/3.jpg" alt="">
+                            <img src="{$urls.img_url}homepage/Hark Néon Placeholder.jpg" alt="">
                         </figure>
                     </div>
                 </div>
@@ -83,9 +83,9 @@
           {widget name="hrec_events"}
       </section>
 
-      <section id="outro-records">
+{*      <section id="outro-records">
             {widget name="ps_imageslider" hook="displayHome"}
-      </section>
+      </section>*}
 
       <footer id="footer" class="js-footer">
         {block name="footer"}
