@@ -124,7 +124,7 @@
 
           img {
             height: calc(100vh - 71px);
-            width: inherit;
+            object-fit: cover;
           }
         }
       }
