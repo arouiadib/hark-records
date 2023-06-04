@@ -44,11 +44,6 @@
     </form>
 
     <div class="col-xs-12">
-        {if $msg}
-            <p class="alert {if $nw_error}alert-danger{else}alert-success{/if}">
-                {$msg}
-            </p>
-        {/if}
         {hook h='displayNewsletterRegistration'}
         {if isset($id_module)}
             {hook h='displayGDPRConsent' id_module=$id_module}
