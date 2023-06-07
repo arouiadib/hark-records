@@ -25,7 +25,7 @@
 <div class="links">
     <div class="">
         {foreach $linkBlocks as $linkBlock}
-            <div class="col-md-6 p-0 wrapper">
+            <div class="col-md-6 col-lg-12 p-0 wrapper">
                 <ul id="footer_sub_menu_{$linkBlock.id}">
                     {foreach $linkBlock.links as $link}
                         <li>
@@ -34,7 +34,7 @@
                                     class="{$link.class}"
                                     href="{$link.url}"
                                     title="{$link.description}"
-{*                                    {if !empty($link.target)} target="{$link.target}" {/if}*}
+                                    {*                {if !empty($link.target)} target="{$link.target}" {/if}*}
                             >
                                 {$link.title}
                             </a>
