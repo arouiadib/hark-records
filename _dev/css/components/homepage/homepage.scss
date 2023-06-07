@@ -16,7 +16,7 @@
       min-height: 460px;
       .intro-title-desc {
         position: absolute;
-        top: 45%;
+        top: 50%;
         transform: translateY(-50%);
         .intro-title {
           font-style: normal;
@@ -30,8 +30,8 @@
           font-family: POLICESTUDIOHARKSANS-REGULAR;
           font-style: normal;
           font-weight: 400;
-          font-size: 14px;
-          line-height: 14px;
+          font-size: 13px;
+          line-height: 20px;
           margin: auto 50px;
           width: 80%;
           text-align: center;
@@ -104,7 +104,7 @@
           .intro-title {
             line-height: 45px;
             margin-bottom: 30px;
-            margin-left: 30px;
+            margin-left: 35px;
             width: 70%;
             text-align: left;
           }
@@ -112,7 +112,7 @@
           .intro-description {
 
             margin-bottom: 30px;
-            margin-left: 30px;
+            margin-left: 35px;
             width: 70%;
             text-align: left;
           }
