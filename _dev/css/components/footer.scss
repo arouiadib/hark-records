@@ -7,9 +7,6 @@
   .logo, .logo-social {
     filter: brightness(0) invert(1);
   }
-  .logo {
-    max-width: 150px;
-  }
 }
 
 
@@ -33,6 +30,17 @@
 
   .footer-blocks {
     .footer-block {
+      &.repair {
+        .logo {
+          height: 23px;
+        }
+
+      }
+      &.records {
+        .logo {
+          height: 26px;
+        }
+      }
       padding-top: 2px;
       .footer-block-links {
         border-bottom: none;
