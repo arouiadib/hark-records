@@ -33,13 +33,13 @@
 <div class="footer-container">
   <div class="container-fluid">
     <div class="row">
-      <div class="col-xs-12 col-md-6 footer-blocks">
+      <div class="col-xs-12 col-md-6 footer-blocks pr-0">
         {hook h="displaySubShopsBlocks" mod="hs_topmenu"}
       </div>
       <div class="col-xs-12 col-md-6 footer-main">
         <div class="footer-newsletter-social">
           <div class="col-sm-12 col-md-4"></div>
-          <div class="col-sm-12 col-md-6">
+          <div class="col-sm-12 col-md-10 col-lg-6">
             {widget name="ps_emailsubscription"}
           </div>
           <div class="col-sm-12 col-md-2">
