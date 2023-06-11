@@ -79,9 +79,9 @@
             </div>
       </section>
 
-      <section id="events-records">
+{*      <section id="events-records">
           {widget name="hrec_events"}
-      </section>
+      </section>*}
 
 {*      <section id="outro-records">
             {widget name="ps_imageslider" hook="displayHome"}
