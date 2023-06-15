@@ -70,7 +70,7 @@
       }
       .footer-block-content {
         margin-top: 30px;
-
+        min-height: 77px;
         .contact {
           margin-top: 31px;
           a {
@@ -88,7 +88,7 @@
     }
     .footer-main-links {
       .links{
-        margin-top: 78px;
+        margin-top: 128px;
       }
     }
   }
@@ -130,6 +130,7 @@
 @include media-breakpoint-down(lg) {
   .footer-container {
     .footer-blocks {
+      /*border-bottom: 1px solid white;*/
       .footer-block-links {
         border-bottom: none;
       }
@@ -141,6 +142,7 @@
 @include media-breakpoint-down(md) {
   .footer-container {
     .footer-blocks {
+      /*border-bottom: 1px solid white;*/
       .footer-block-links {
         border-bottom: none;
       }
@@ -185,6 +187,9 @@
 @include media-breakpoint-down(xs) {
   .footer-container {
     .footer-blocks {
+      border-bottom: none;
+      .footer-block-links {
+      }
     }
   }
 }
